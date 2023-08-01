@@ -1,0 +1,25 @@
+.button-basics{
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  color: var(--text-white, #FEFEFE);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.24px;
+  border-radius: 5px;
+  background: var(--primary-300, #E2081E);
+}
+
+.button-basics > * {
+  margin-right: 5px;
+}
+
+.button-basics-icon{
+  margin-top: 2px;
+}

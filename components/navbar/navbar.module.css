@@ -1,0 +1,151 @@
+.navbar-container{
+  height: 116px;
+  background: var(--bg-100, #FFFEFE);
+  color: var(--secondary-600, #68605B);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  box-shadow: 0px 2px 6px 0px rgba(181, 157, 157, 0.30);
+}
+
+.navbar-frame1{
+  height: 30px;
+  background: var(--primary-300, #E2081E);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding:0px 3%;
+}
+
+.navbar-frame1-icons{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.navbar-frame1-dropdown{
+  margin-top: -8px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.navbar-frame1-icons1 {
+  position: absolute;
+  padding: 9px;
+  padding-right: 227px;
+
+
+}
+.navbar-frame1-icons > *{
+  padding: 9px 7px;
+}
+
+.navbar-frame2{
+  height: 60px;
+  background: var(--bg-100, #FFFEFE);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 3.5%;
+}
+
+.navbar-frame2-logo{
+  margin-top: 5px;
+
+}
+.maxipet-logo{
+  width: 169.464px;
+  height: 46px;
+  position: relative;
+}
+
+.navbar-frame2-search{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.search-input{
+  border-radius: 4px;
+  border: 1px solid var(--secondary-200, #C8C2BE);
+  width: 320px;
+  height: 33px;
+
+}
+
+.search-icon {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 290px;
+}
+
+.search-input::placeholder {
+  color: var(--secondary-200, #C8C2BE);
+  font-weight: 400;
+}
+
+.navbar-frame2-icons{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 20px;
+
+}
+.navbar-frame2-icons > *{
+  padding: 0 7px;
+}
+
+.navbar-frame3{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 10%;
+}
+
+@media (max-width: 1100px){
+  .navbar-container{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar-frame2-search{
+    display: none;
+  }
+  .navbar-container{
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .navbar-frame2-search{
+    display: none;
+  }
+
+.navbar-frame3{
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    padding-right: 17px;
+    gap:5px;
+  }
+  .navbar-container{
+  height: 136px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .navbar-container{
+  height: 165px;
+  }
+
+}
+

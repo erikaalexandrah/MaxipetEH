@@ -1,0 +1,30 @@
+.service-card-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.service-card-title{
+  color: var(--text-black, #333);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.service-card-description{
+  color: var(--text-black, #333);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.service-card-icon{
+  width: 80px;
+  height: 80px;
+}
+
