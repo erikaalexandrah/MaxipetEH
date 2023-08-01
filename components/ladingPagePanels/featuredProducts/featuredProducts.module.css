@@ -59,7 +59,18 @@
 
 @media (max-width: 500px) {
 
+  .featured-products-container{
+    margin: 0px;
+  }
+
   .panel-categories-frame2 {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 300px) {
+  .featured-products-frame1-cards-displayer{
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1px;
   }
 }

@@ -34,7 +34,15 @@
 }
 
 @media (max-width: 500px) {
+  .popular-products-frame2 > * {
+    margin-right: 5px;
+  }
 
 }
 
-
+@media (max-width: 300px) {
+  .popular-products-frame2 {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+}
