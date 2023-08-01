@@ -76,9 +76,31 @@
 }
 
 
+@media (max-width: 420px) {
+  .latest-products-frame2-cards-displayer{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding-left: 40px;
+
+}
+}
+
 @media (max-width: 300px) {
   .latest-products-frame2-cards-displayer{
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
+    padding-left: 20px;
+
 }
 }
+
+@media (max-width: 280px) {
+  .latest-products-frame2-cards-displayer{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding-left: 10px;
+
+}
+}
+
+

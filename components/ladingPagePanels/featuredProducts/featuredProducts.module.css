@@ -68,9 +68,22 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 420px) {
   .featured-products-frame1-cards-displayer{
     grid-template-columns: repeat(1, 2fr);
     gap: 1px;
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 300px) {
+  .featured-products-frame1-cards-displayer{
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 280px) {
+  .featured-products-frame1-cards-displayer{
+    padding-left: 10px;
   }
 }
